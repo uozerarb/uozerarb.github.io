@@ -25,10 +25,9 @@
                 <p class="description">Комфортабельные номера, конные прогулки, катание на лодке, рыбалка, мангал, тент, парковка</p>
                 
                 <ul class="nav nav-tabs">
-                  <li><a href="#home" data-toggle="tab">Home</a></li>
-                  <li><a href="#profile" data-toggle="tab">Profile</a></li>
-                  <li><a href="#messages" data-toggle="tab">Messages</a></li>
-                  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                  <li><a href="#home" data-toggle="tab">Главная</a></li>
+                  <li><a href="#price" data-toggle="tab">Прайс-лист</a></li>
+                  <li><a href="#form" data-toggle="tab">Обратная связь</a></li>
                 </ul>
                 
             </div>
@@ -36,7 +35,14 @@
           
             <div class="row">
                 <div class="span9">
-                    {{content}}
+                    
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="home">{{content}}</div>
+                      <div class="tab-pane" id="price">...</div>
+                      <div class="tab-pane" id="form">...</div>
+                    </div>                    
+                    
+                    
                 </div>
                 <div class="span3">
                       <h3>Новости</h3>
