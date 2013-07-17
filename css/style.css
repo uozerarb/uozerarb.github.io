@@ -1,6 +1,5 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-
 html,
 body {
   height: 100%;
@@ -42,6 +41,9 @@ body {
 /* Not required for template or sticky footer method. */
 h1,h2,h3,h4 {
     font-weight: normal;
+}
+.page-header {
+    background: #ddd;
 }
 .page-header .description {
     font-size: 18px;
