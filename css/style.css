@@ -137,6 +137,7 @@ header {
   height: 130px;
 }
 
+
 #logo { 
   width: 940px;
 }
@@ -145,7 +146,7 @@ header {
 }
 #logo h1, #logo h1 a, #logo h1 a:hover { 
     color: #444;
-    font-size: 300%;
+    font-size: 26px;
     text-decoration: none;
 }
 #logo h1 a .logo_colour { 
@@ -156,7 +157,7 @@ header {
 }
 
 #logo_text h2 { 
-  font-size: 140%;
+  font-size: 20px;
   color: #222;
 }
 
