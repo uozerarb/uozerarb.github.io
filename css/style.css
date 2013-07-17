@@ -538,6 +538,10 @@ ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected a, ul#nav li.selected a
   color: #B30303;
   text-shadow: none;
 }
+ul#nav li a.notwork { 
+  color: #ccc;
+  text-shadow: none;
+}
 
 ul#nav ul li a { 
   color: #222;
