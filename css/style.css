@@ -43,7 +43,8 @@ h1,h2,h3,h4 {
     font-weight: normal;
 }
 .page-header {
-    background: #ddd;
+    border:0;
+    
 }
 .page-header .description {
     font-size: 18px;
