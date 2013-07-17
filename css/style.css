@@ -13,8 +13,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
 }
 
 body { 
-  font: tahoma, sans-serif;
+  font: tahoma;
   font-size: 14px;
+  line-height: 20px;
   background: #eeeeee url(../images/pattern.png);
   color: #444;
 }
@@ -138,39 +139,28 @@ header {
 
 #logo { 
   width: 940px;
-  height: 130px;
-  background: transparent;
-  color: #888;
-  padding: 0;
-  float: left;
 }
-
-#logo h1, #logo h2 { 
-  font: normal 320% arial, sans-serif;
-  border-bottom: 0;
-  text-transform: none;
-  margin: 0;
+#logo .wrp {
+    padding:20px;
 }
-
-#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
-  padding: 0;
-  color: #444;
-  text-decoration: none;
+#logo h1, #logo h1 a, #logo h1 a:hover { 
+    color: #444;
+    font-size: 300%;
+    text-decoration: none;
 }
-
-#logo_text h1 a .logo_colour { 
-  color: #B30303;
+#logo h1 a .logo_colour { 
+    color: #B30303;
 }
-
-#logo_text a:hover .logo_colour { 
+#logo a:hover .logo_colour { 
   color: #444;
 }
 
 #logo_text h2 { 
   font-size: 140%;
-  padding: 0 0 0 0;
   color: #222;
 }
+
+
 
 nav { 
   height: 44px;
