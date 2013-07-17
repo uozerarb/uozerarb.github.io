@@ -43,7 +43,9 @@ h1,h2,h3,h4 {
     font-weight: normal;
 }
 h2 {
+    color:#213E24;
     font-size: 22px;
+    margin-top:0;
 }
 .page-header {
     border:0;
@@ -56,7 +58,10 @@ h2 {
 #footer .container {
     padding: 20px 0;
 }
-
+.prm {
+    font-weight: bold;
+    color:#213E24;
+}
 .mapya {
     width:600px;
     border:10px solid #ccc;
