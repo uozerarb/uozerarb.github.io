@@ -31,7 +31,7 @@
                 </ul>
                 
                 <ul id="images">
-                  <li><img src="/images/Pic007.jpg" /></li>
+                  <li><a href="/images/Pic007b.jpg" class="gal"><img src="/images/Pic007.jpg" /></a></li>
                   <li><img src="/images/Pic002.jpg" /></li>
                   <li><img src="/images/Pic003.jpg" /></li>
                   <li><img src="/images/Pic004.jpg" /></li>
@@ -72,7 +72,10 @@
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script>
   $(function () {
-    $('#menu').tab();
+    jQuery('#menu').tab();
+    jQuery('a.colorbox').colorbox();
+    jQuery('a.gall').colorbox({rel:'gal'});
+
   })
 </script>  
 </body>
