@@ -275,21 +275,10 @@ nav {
 
 footer { 
   width: 950px;
-  font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
   height: 30px;
+  line-height: 30px;
   padding: 5px 0 20px 0;
-  text-align: center;
   background: #ddd; /* Show a solid color for older browsers */
-  background: -moz-linear-gradient(#fff, #ddd);
-  background: -o-linear-gradient(#fff, #ddd);
-  background: -webkit-linear-gradient(#fff, #ddd);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  border: 1px solid #eee;
-  border-radius: 7px 7px 7px 7px;
-  -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;
 }
 
 footer p { 
