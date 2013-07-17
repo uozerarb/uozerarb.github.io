@@ -56,3 +56,8 @@ h2 {
 #footer .container {
     padding: 20px 0;
 }
+
+.mapya {
+    border:10px solid #ccc;
+    margin:20px 0 10px 0;
+}
