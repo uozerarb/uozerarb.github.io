@@ -24,7 +24,7 @@
                 <h1><a href="/index.html">Гостевой дом <span class="logo_colour">"У ОЗЕРА"</span></a></h1>
                 <p class="description">Комфортабельные номера, конные прогулки, катание на лодке, рыбалка, мангал, тент, парковка</p>
                 
-                <ul class="nav nav-tabs">
+                <ul id="menu" class="nav nav-tabs">
                   <li><a href="#home" data-toggle="tab">Главная</a></li>
                   <li><a href="#price" data-toggle="tab">Прайс-лист</a></li>
                   <li><a href="#form" data-toggle="tab">Обратная связь</a></li>
@@ -64,8 +64,12 @@
     </div>
 
 
-  <script type="text/javascript" src="/js/jquery.js"></script>
-  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-  
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+    $('#menu').tab();
+  })
+</script>  
 </body>
 </html>
